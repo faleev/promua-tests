@@ -23,5 +23,12 @@ pip-log.txt
 #Translations
 *.mo
 
-#Mr Developer
-.mr.developer.cfg
+#Eclipse resorces
+.project
+.pydevproject
+.settings
+
+#Py.test and MozwebQA related resources
+examples
+__pycache__
+results
