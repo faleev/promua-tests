@@ -15,4 +15,4 @@ def test_that_company_registration_form_is_present_on_page(mozwebqa):
 
     result = page.get_absent_elements()
 
-    assert len(result) != 0, 'List of absent elements: {0}.'.format(', '.join(result))
+    assert len(result) == 0, 'List of absent elements: {0}.'.format(', '.join(result))
