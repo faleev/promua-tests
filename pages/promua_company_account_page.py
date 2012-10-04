@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-'''Page object for Prom.ua Registration page.'''
+'''Page object for Prom.ua company account page.'''
 
 from pages.page import Page
 from selenium.webdriver.common.by import By
